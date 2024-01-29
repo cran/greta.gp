@@ -1,7 +1,7 @@
 Type: Package
 Package: greta.gp
 Title: Gaussian Process Modelling in 'greta'
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person(
       given = "Nick", 
@@ -38,16 +38,16 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-GB
-RoxygenNote: 7.2.0
+RoxygenNote: 7.3.0
 SystemRequirements: Python (>= 2.7.0) with header files and shared
         library; TensorFlow (v1.14; https://www.tensorflow.org/);
         TensorFlow Probability (v0.7.0;
         https://www.tensorflow.org/probability/)
 NeedsCompilation: no
-Packaged: 2022-09-06 02:08:24 UTC; nick
+Packaged: 2024-01-29 06:11:30 UTC; nick
 Author: Nick Golding [aut, cph] (<https://orcid.org/0000-0001-8916-5570>),
   Jian Yen [ctb],
   Nicholas Tierney [aut, cre] (<https://orcid.org/0000-0003-1460-8722>)
 Maintainer: Nicholas Tierney <nicholas.tierney@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-09-06 07:10:06 UTC
+Date/Publication: 2024-01-29 12:20:02 UTC

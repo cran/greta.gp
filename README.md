@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/greta-dev/greta.gp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/greta-dev/greta.gp/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/greta.gp)](https://CRAN.R-project.org/package=greta.gp)
 [![Codecov test
 coverage](https://codecov.io/gh/greta-dev/greta.gp/branch/master/graph/badge.svg)](https://app.codecov.io/gh/greta-dev/greta.gp?branch=master)
 <!-- badges: end -->
@@ -23,7 +25,7 @@ install.packages("greta.gp")
 ```
 
 Or install the development version of `greta.dynamics` from
-[r-universe](https://greta-dev.r-universe.dev/ui#builds):
+[r-universe](http://greta-dev.r-universe.dev/ui/):
 
 ``` r
 install.packages("greta.gp", repos = "https://greta-dev.r-universe.dev")
