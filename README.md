@@ -9,7 +9,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/greta.gp)](https://CRAN.R-project.org/package=greta.gp)
 [![Codecov test
-coverage](https://codecov.io/gh/greta-dev/greta.gp/branch/master/graph/badge.svg)](https://app.codecov.io/gh/greta-dev/greta.gp?branch=master)
+coverage](https://codecov.io/gh/greta-dev/greta.gp/branch/main/graph/badge.svg)](https://app.codecov.io/gh/greta-dev/greta.gp?branch=main)
 <!-- badges: end -->
 
 `greta.gp` extends greta to let you define Gaussian processes as part of
@@ -25,7 +25,7 @@ install.packages("greta.gp")
 ```
 
 Or install the development version of `greta.dynamics` from
-[r-universe](http://greta-dev.r-universe.dev/ui/):
+[r-universe](http://greta-dev.r-universe.dev/):
 
 ``` r
 install.packages("greta.gp", repos = "https://greta-dev.r-universe.dev")
@@ -86,8 +86,9 @@ plot(
 )
 for (i in 1:200) {
   lines(draws[[1]][i, ] ~ x_plot,
-        lwd = 2,
-        col = rgb(0.7, 0.1, 0.4, 0.1))  
+    lwd = 2,
+    col = rgb(0.7, 0.1, 0.4, 0.1)
+  )
 }
 ```
 

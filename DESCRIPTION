@@ -1,7 +1,7 @@
 Type: Package
 Package: greta.gp
 Title: Gaussian Process Modelling in 'greta'
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person(
       given = "Nick", 
@@ -31,23 +31,23 @@ License: Apache License (>= 2)
 URL: https://github.com/greta-dev/greta.gp,
         https://greta-dev.github.io/greta.gp/
 BugReports: https://github.com/greta-dev/greta.gp/issues
-Depends: greta (>= 0.4.2), R (>= 3.1.0)
-Imports: cli, glue, tensorflow (>= 2.7.0)
+Depends: greta (>= 0.5.0), R (>= 4.1.0)
+Imports: cli, glue, rlang (>= 1.1.4), tensorflow (>= 2.7.0)
 Suggests: covr, knitr, rmarkdown, spelling, testthat (>= 3.1.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-GB
-RoxygenNote: 7.3.0
-SystemRequirements: Python (>= 2.7.0) with header files and shared
-        library; TensorFlow (v1.14; https://www.tensorflow.org/);
-        TensorFlow Probability (v0.7.0;
+RoxygenNote: 7.3.2
+SystemRequirements: Python (>= 3.7.0) with header files and shared
+        library; TensorFlow (>= v2.0.0; https://www.tensorflow.org/);
+        TensorFlow Probability (v0.8.0;
         https://www.tensorflow.org/probability/)
 NeedsCompilation: no
-Packaged: 2024-01-29 06:11:30 UTC; nick
+Packaged: 2024-11-13 03:03:09 UTC; nick
 Author: Nick Golding [aut, cph] (<https://orcid.org/0000-0001-8916-5570>),
   Jian Yen [ctb],
   Nicholas Tierney [aut, cre] (<https://orcid.org/0000-0003-1460-8722>)
 Maintainer: Nicholas Tierney <nicholas.tierney@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-29 12:20:02 UTC
+Date/Publication: 2024-11-13 06:50:02 UTC
